@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="w-full h-screen">
+    <section id="search" class="relative container px-6 pt-10 pb-8">
+      <span class="absolute left-10 top-12 transform text-[#2D3648]"
+        ><i class="fa-solid fa-magnifying-glass"></i
+      ></span>
+      <input
+        type="text"
+        placeholder="Search"
+        class="border-2 border-[#cbd2e0] w-full h-[42px] px-10 rounded-[6px] placeholder:text-[#2D3648]"
+      />
+    </section>
+
+    <section id="greeting" class="relative container px-6 pb-8">
+      <h2 class="text-[#2D3648] text-xl font-bold pb-1">Hello Leslie!</h2>
+      <p class="text-[#717D96]">We have some recommmeendations for you.</p>
+    </section>
+
+    <section
+      id="products-you"
+      class="relative container px-6 pb-8 overflow-x-hidden"
+    >
+      <div id="title1" class="flex justify-between pb-2">
+        <h2 class="text-xl font-bold text-[#2D3648]">Just for you</h2>
+        <button class="text-sm font-bold text-[#2D3648]">See All</button>
+      </div>
+      <div id="card-container" class="flex gap-8">
+        <div
+          id="card1"
+          class="h-[286px] w-[291px] border-2 border-[#2D3648] rounded-[8px] shrink-0"
+        >
+          <div
+            id="pic1"
+            class="h-[133px] border-b-2 border-[#2D3648] bg-[#EDF0F7] rounded-t-[8px]"
+          ></div>
+          <div id="info1" class="p-4">
+            <h3 class="text-[#2D3648] text-xl font-bold">Product Name</h3>
+            <p class="text-[#717D96] font-bold">$25.00</p>
+            <p class="text-[#717D96] text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. At purus
+              tellus arcu sit nibh consectetur.
+            </p>
+          </div>
+        </div>
+        <div
+          id="card2"
+          class="h-[286px] w-[291px] border-2 border-[#2D3648] rounded-[8px] shrink-0"
+        >
+          <div
+            id="pic2"
+            class="h-[133px] border-b-2 border-[#2D3648] bg-[#EDF0F7] rounded-t-[8px]"
+          ></div>
+          <div id="info2" class="p-4">
+            <h3 class="text-[#2D3648] text-xl font-bold">Product Name</h3>
+            <p class="text-[#717D96] font-bold">$25.00</p>
+            <p class="text-[#717D96] text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. At purus
+              tellus arcu sit nibh consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="products-deal"
+      class="relative container px-6 pb-8 overflow-x-hidden"
+    >
+      <div id="title2" class="flex justify-between pb-2">
+        <h2 class="text-xl font-bold text-[#2D3648]">Deals</h2>
+        <button class="text-sm font-bold text-[#2D3648]">See All</button>
+      </div>
+      <div id="card-container2" class="grid grid-cols-2 gap-4">
+        <div
+          id="deal-card1"
+          class="w-full h-[185px] border-2 border-[#2D3648] rounded-[8px]"
+        >
+          <div
+            id="deal-pic1"
+            class="h-[105px] border-b-2 border-[#2D3648] bg-[#EDF0F7] rounded-t-[8px]"
+          ></div>
+          <div id="deal-info1" class="p-4">
+            <h3 class="text-[#2D3648] font-bold">Product Name</h3>
+            <p class="text-[#717D96] font-bold">$25.00</p>
+          </div>
+        </div>
+
+        <div
+          id="deal-card2"
+          class="w-full h-[185px] border-2 border-[#2D3648] rounded-[8px]"
+        >
+          <div
+            id="deal-pic2"
+            class="h-[105px] border-b-2 border-[#2D3648] bg-[#EDF0F7] rounded-t-[8px]"
+          ></div>
+          <div id="deal-info2" class="p-4">
+            <h3 class="text-[#2D3648] font-bold">Product Name</h3>
+            <p class="text-[#717D96] font-bold">$25.00</p>
+          </div>
+        </div>
+
+        <div
+          id="deal-card2"
+          class="w-full h-[185px] border-2 border-[#2D3648] rounded-[8px]"
+        >
+          <div
+            id="deal-pic2"
+            class="h-[105px] border-b-2 border-[#2D3648] bg-[#EDF0F7] rounded-t-[8px]"
+          ></div>
+          <div id="deal-info2" class="p-4">
+            <h3 class="text-[#2D3648] font-bold">Product Name</h3>
+            <p class="text-[#717D96] font-bold">$25.00</p>
+          </div>
+        </div>
+
+        <div
+          id="deal-card2"
+          class="w-full h-[185px] border-2 border-[#2D3648] rounded-[8px]"
+        >
+          <div
+            id="deal-pic2"
+            class="h-[105px] border-b-2 border-[#2D3648] bg-[#EDF0F7] rounded-t-[8px]"
+          ></div>
+          <div id="deal-info2" class="p-4">
+            <h3 class="text-[#2D3648] font-bold">Product Name</h3>
+            <p class="text-[#717D96] font-bold">$25.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="categories" class="relative container px-6 pb-8 overflow-x-hidden">
+      <div id="title2" class="flex justify-between pb-2">
+        <h2 class="text-xl font-bold text-[#2D3648]">Categories</h2>
+        <button class="text-sm font-bold text-[#2D3648]">See All</button>
+      </div>
+      <div id="cat-container" class="flex gap-4">
+        <div
+          id="cat-card1"
+          class="w-[123px] h-[128px] border-2 border-[#2D3648] rounded-[8px] shrink-0 flex items-center justify-center text-[#2D3648] font-bold"
+        >
+          Tech
+        </div>
+
+        <div
+          id="cat-card"
+          class="w-[123px] h-[128px] border-2 border-[#2D3648] rounded-[8px] shrink-0 flex items-center justify-center text-[#2D3648] font-bold"
+        >
+          Fashion
+        </div>
+
+        <div
+          id="cat-card3"
+          class="w-[123px] h-[128px] border-2 border-[#2D3648] rounded-[8px] shrink-0 flex items-center justify-center text-[#2D3648] font-bold"
+        >
+          Gaming
+        </div>
+      </div>
+    </div>
+
+    <section id="bottom-nav" class="container pt-16">
+      <ul
+        class="fixed lg:hidden bottom-0 w-full flex justify-around bg-white text-black p-4 border-t-2 border-black"
+      >
+        <li class="flex flex-col items-center text-sm cursor-pointer">
+          <i class="nf nf-cod-home text-xl"></i><span>Home</span>
+        </li>
+        <li class="flex flex-col items-center text-sm cursor-pointer">
+          <i class="nf nf-cod-heart text-xl"></i><span>Wishlist</span>
+        </li>
+        <li class="flex flex-col items-center text-sm cursor-pointer">
+          <i class="nf nf-fa-user_o text-xl"></i><span>Profile</span>
+        </li>
+        <li class="flex flex-col items-center text-sm cursor-pointer">
+          <i class="nf nf-md-cart_outline text-xl"></i><span>Cart</span>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
