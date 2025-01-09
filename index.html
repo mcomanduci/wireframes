@@ -13,6 +13,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="w-full h-screen">
     <section id="search" class="relative container px-6 pt-10 pb-8">
@@ -177,18 +183,28 @@
       <ul
         class="fixed lg:hidden bottom-0 w-full flex justify-around bg-white text-black p-4 border-t-2 border-black"
       >
-        <li class="flex flex-col items-center text-sm cursor-pointer">
-          <i class="nf nf-cod-home text-xl"></i><span>Home</span>
-        </li>
-        <li class="flex flex-col items-center text-sm cursor-pointer">
+        <a href="#">
+          <li class="flex flex-col items-center text-sm cursor-pointer">
+            <i class="nf nf-cod-home text-xl"></i><span>Home</span>
+          </li>
+        </a>
+        <li
+          class="flex flex-col items-center text-sm cursor-pointer opacity-50"
+        >
           <i class="nf nf-cod-heart text-xl"></i><span>Wishlist</span>
         </li>
-        <li class="flex flex-col items-center text-sm cursor-pointer">
+        <li
+          class="flex flex-col items-center text-sm cursor-pointer opacity-50"
+        >
           <i class="nf nf-fa-user_o text-xl"></i><span>Profile</span>
         </li>
-        <li class="flex flex-col items-center text-sm cursor-pointer">
-          <i class="nf nf-md-cart_outline text-xl"></i><span>Cart</span>
-        </li>
+        <a href="./cart.html">
+          <li
+            class="flex flex-col items-center text-sm cursor-pointer opacity-50"
+          >
+            <i class="nf nf-md-cart_outline text-xl"></i><span>Cart</span>
+          </li>
+        </a>
       </ul>
     </section>
   </body>
