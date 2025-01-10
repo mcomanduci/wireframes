@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wireframe Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="w-full h-screen">
+    <section id="greeting" class="relative container px-6 pb-8 pt-10">
+      <h2 class="text-[#2D3648] text-2xl font-bold pb-1">Profile</h2>
+    </section>
+
+    <section id="greeting" class="relative container px-6 pb-8">
+      <div
+        class="w-[200px] h-[150px] bg-[#EDF0F7] border-2 border-[#2d3648] mb-1"
+      ></div>
+      <h2 class="text-[#2D3648] text-2xl font-bold pb-1 leading-[140%]">
+        Leslie Flores
+      </h2>
+      <p class="text-[#717D96]">
+        Lorem ipsum dolor sit amet consectetur. Facilisis tellus leo orci quis.
+      </p>
+      <button class="px-3 py-2 bg-[#EDF0F7] mt-1">Edit Profile</button>
+    </section>
+
+    <section class="relative container px-6 pb-8">
+      <div class="h-[1px] w-full bg-[#2D3648]"></div>
+    </section>
+
+    <section
+      id="products-deal"
+      class="relative container px-6 pb-8 overflow-x-hidden"
+    >
+      <div id="title2" class="flex justify-between pb-2">
+        <h2 class="text-xl font-bold text-[#2D3648]">Interests</h2>
+        <button class="text-sm font-bold text-[#2D3648]">See All</button>
+      </div>
+      <div class="grid grid-cols-2 gap-2">
+        <div
+          id="deal-card1"
+          class="w-full col-span-2 h-[128px] border-2 border-[#2D3648] rounded-[8px] flex items-center justify-center"
+        >
+          <h3 class="text-[#2D3648] font-bold">Gaming</h3>
+        </div>
+
+        <div
+          id="deal-card1"
+          class="w-full h-[128px] border-2 border-[#2D3648] rounded-[8px] flex items-center justify-center"
+        >
+          <h3 class="text-[#2D3648] font-bold">Reading</h3>
+        </div>
+
+        <div
+          id="deal-card1"
+          class="w-full h-[128px] border-2 border-[#2D3648] rounded-[8px] flex items-center justify-center"
+        >
+          <h3 class="text-[#2D3648] font-bold">Sports</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative container px-6 pb-8">
+      <div class="h-[1px] w-full bg-[#2D3648]"></div>
+    </section>
+
+    <div id="categories" class="relative container px-6 pb-8 overflow-x-hidden">
+      <div id="title2" class="flex justify-between pb-2">
+        <h2 class="text-xl font-bold text-[#2D3648]">Account Details</h2>
+        <button class="text-sm font-bold text-[#2D3648]">See All</button>
+      </div>
+      <div id="cat-container" class="flex gap-4">
+        <div
+          id="cat-card1"
+          class="w-[123px] h-[128px] border-2 border-[#2D3648] rounded-[8px] shrink-0 flex items-center justify-center text-[#2D3648] font-bold"
+        >
+          Orders
+        </div>
+
+        <div
+          id="cat-card"
+          class="w-[123px] h-[128px] border-2 border-[#2D3648] rounded-[8px] shrink-0 flex items-center justify-center text-[#2D3648] font-bold"
+        >
+          Buy Again
+        </div>
+
+        <div
+          id="cat-card3"
+          class="w-[123px] h-[128px] border-2 border-[#2D3648] rounded-[8px] shrink-0 flex items-center justify-center text-[#2D3648] font-bold"
+        >
+          Wishlist
+        </div>
+      </div>
+    </div>
+
+    <section id="bottom-nav" class="container pt-16">
+      <ul
+        class="fixed lg:hidden bottom-0 w-full flex justify-around bg-white text-black p-4 border-t-2 border-black"
+      >
+        <a href="/">
+          <li
+            class="flex flex-col items-center text-sm cursor-pointer opacity-50"
+          >
+            <i class="nf nf-cod-home text-xl"></i><span>Home</span>
+          </li>
+        </a>
+        <li
+          class="flex flex-col items-center text-sm cursor-pointer opacity-50"
+        >
+          <i class="nf nf-cod-heart text-xl"></i><span>Wishlist</span>
+        </li>
+        <li class="flex flex-col items-center text-sm cursor-pointer">
+          <i class="nf nf-fa-user_o text-xl"></i><span>Profile</span>
+        </li>
+        <a href="./cart.html">
+          <li
+            class="flex flex-col items-center text-sm cursor-pointer opacity-50"
+          >
+            <i class="nf nf-md-cart_outline text-xl"></i><span>Cart</span>
+          </li>
+        </a>
+      </ul>
+    </section>
+  </body>
+</html>
